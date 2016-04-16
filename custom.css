@@ -33,6 +33,10 @@ body {
     padding: 10px inherit;
   }
 
+  ul {
+    list-style: none;
+    }
+
   footer {
     font-family: 'Jura', 'helvetica', serif;
     color: gray;
@@ -63,11 +67,12 @@ body {
   .navigation a {
     color: lightgray;
     border-radius: 0;
+    margin-left: 1px;
   }
 
   .nav-pills>li.active>a  {
-    color: lightgray;
-    background-color: #555;
+    color: black;
+    background-color: #666;
     border-radius: 0;
   }
   .nav-pills>li.active>a:focus {
@@ -101,7 +106,7 @@ body {
 
   .contact {
     font-size: 40px;
-    display:block;
+    margin-left: -30px;
     }
 
   .gold {
